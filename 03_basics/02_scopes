@@ -1,0 +1,58 @@
+var c = 300
+let a = 300
+
+if(true){
+    let a = 20;
+    const b = 10;
+    var c = 5;
+}
+
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+
+function one(){
+    const username = "honey"
+
+    function two(){
+        const website = "youtube"
+        console.log(username);
+    }
+
+    //console.log(website);
+
+    two()
+}
+
+//one()
+
+
+if(true){
+    const username = "honey"
+    if(username === "honey") {
+        const website = "youtube"
+        //console.log(username + website);
+    }
+
+    //console.log(website);
+}
+//console.log(username);
+
+
+
+//----------------imp-------------------
+
+console.log(addone(9));
+function addone(num){
+    return num  +1
+}
+
+
+
+
+console.log(addTwo(5));
+const addTwo = function(num){   //variable called as expression    
+    return num +2
+}
+
